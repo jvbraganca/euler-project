@@ -1,6 +1,10 @@
 cmake_minimum_required(VERSION 3.17)
-project(Euler_Project)
+project(Problem_7)
 
-set(CMAKE_CXX_STANDARD 98)
+set(CMAKE_CXX_FLAGS "-Wall -Wextra -std=c++14 -ggdb")
+set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Euler_Project main.cpp)
+include_directories(.)
+
+add_executable(Problem_7
+        main.cpp)
